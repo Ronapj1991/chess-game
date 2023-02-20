@@ -6,6 +6,6 @@ class Bishop
   end
 
   def to_s
-    color == :white ? "\u2657" : "\u265D"
+    color == :white ? "\u265D" : "\u2657"
   end
 end

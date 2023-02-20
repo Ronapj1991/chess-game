@@ -6,9 +6,6 @@ class Pawn
   end
 
   def to_s
-    color == :white ? "\u2659" : "\u265F"
+    color == :white ? "\u265F" : "\u2659"
   end
 end
-
-my_pawn = Pawn.new(:white)
-puts my_pawn
